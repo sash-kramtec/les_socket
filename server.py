@@ -1,8 +1,8 @@
 import socket
 
 PORT = 25290
-host = "localhost"
-
+#host = "localhost"
+host = ""
 #host = socket.gethostname() # Получить имя локального хоста
 
 server_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
